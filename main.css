@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+body {
+    padding-top: 100px;
+    background-color: rgb(206, 232, 255);
+}
+
+.container {
+    background-color: #6db1ff;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 40px rgb(117, 188, 255);
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    padding: 8px;
+    border: #437efd;
+    border: 1px solid #389fff;
+    color: #389fff ;
+}
+
+input::placeholder{
+    color: #389fff;
+}
+
+form button {
+    background-color: #437efd;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+table {
+    width: 50%;
+}
+
+table th {
+    border-bottom: 2px solid aliceblue;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-color: aliceblue;
+}
+
+td {
+    color: aliceblue;
+}
+
+footer {
+    margin-top: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: bottom;
+    align-items: center;
+    background: #2165f7;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
